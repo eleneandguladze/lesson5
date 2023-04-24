@@ -1,0 +1,144 @@
+.logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20.45px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 9.55px;
+	width: 35.54px;
+}
+
+.ellipse {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.home {
+	color: #000000;
+}
+
+header {
+	font-size: 11px;
+	text-transform: uppercase;
+	background-color: #ECF8FE;
+	font-weight: 700;
+	color: #959798;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header nav {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 21px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 160px;
+}
+
+nav li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 27px;
+}
+
+header nav li a {
+	color: #959798;
+}
+
+body {
+	background-color: #ECF8FE;
+}
+
+body h1 {
+	text-transform: uppercase;
+	margin-left: 140px;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	width: 126px;
+	height: 19px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.trending {
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+.trending h3 {
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #FA6980;
+	width: 114px;
+	height: 12px;
+	left: 37px;
+	top: 29px;
+}
+
+.box1 {
+	width: 360px;
+	height: 350px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+
+.box1 img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.box1 p {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 24px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 280px;
+	height: 45px;
+	color: #A6ADB4;
+	font-size: 13px;
+	font-weight: 400;
+}
+.trending .box1 .vector {
+	margin-left: 40px;
+	margin-top: 37px;
+}
+body {
+	width: 1440px;
+	height: 1566px;
+}
+.happening-now h1 {
+	width: 211px;
+	height: 17px;
+	text-transform: uppercase;
+	margin-left: 140px;
+	margin-top: 60px;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.happening-now .bridge {
+	margin-left: 140px;
+	margin-top: 60px;
+
+}
+
+footer {
+	background-color: #A6ADB4;
+	width: 100%;
+	padding: 40px;
+	margin-bottom: 0px;
+}
