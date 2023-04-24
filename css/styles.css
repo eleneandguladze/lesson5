@@ -1,3 +1,7 @@
+body {
+	position: relative;
+}
+
 .logo {
 	margin-top: 20px;
 	margin-left: 20px;
@@ -26,6 +30,10 @@ header {
 	font-weight: 700;
 	color: #959798;
 	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
 }
 
 header nav {
@@ -73,15 +81,17 @@ body h1 {
 	position: relative;
 }
 
-.trending h3 {
+.trending .box1 h3 {
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: #FA6980;
 	width: 114px;
 	height: 12px;
-	left: 37px;
+	position: absolute;
+	left: 117px;
 	top: 29px;
+	z-index: 2;
 }
 
 .box1 {
@@ -133,7 +143,11 @@ body {
 .happening-now .bridge {
 	margin-left: 140px;
 	margin-top: 60px;
+}
 
+.happening-now .wood {
+	margin-left: 140px;
+	margin-top: 40px;
 }
 
 footer {
