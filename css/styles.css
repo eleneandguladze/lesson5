@@ -59,9 +59,9 @@ body {
 	background-color: #ECF8FE;
 }
 
-body h1 {
+.trending h1 {
 	text-transform: uppercase;
-	margin-left: 140px;
+	margin-left: 40px;
 	margin-top: 30px;
 	font-size: 24px;
 	font-weight: 700;
@@ -103,7 +103,6 @@ body h1 {
 	margin-left: 40px;
 }
 
-
 .box1 img {
 	display: inline-block;
 	vertical-align: middle;
@@ -121,14 +120,17 @@ body h1 {
 	font-size: 13px;
 	font-weight: 400;
 }
+
 .trending .box1 .vector {
 	margin-left: 40px;
 	margin-top: 37px;
 }
+
 body {
 	width: 1440px;
 	height: 1566px;
 }
+
 .happening-now h1 {
 	width: 211px;
 	height: 17px;
@@ -140,14 +142,47 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.happening-now .bridge {
+.happening-now .bridge img {
 	margin-left: 140px;
 	margin-top: 60px;
+	width: 760px;
+	height: 430px;
+	position: relative;
 }
 
-.happening-now .wood {
+.happening-now .bridge h1 {
+	position: absolute;
+	width: 256px;
+	color: #FFFFFF;
+	top: 829px;
+	left: 392px;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.happening-now .wood img {
 	margin-left: 140px;
 	margin-top: 40px;
+
+}
+
+.happening-now .squirrel img {
+	margin-left: 940px;
+	position: absolute;
+	top: 615px;
+}
+
+.happening-now .road img {
+	margin-left: 940px;
+	position: absolute;
+	top: 915px;
+}
+
+.happening-now .penguin img {
+	margin-left: 940px;
+	top: 1215px;
+	position: absolute;
 }
 
 footer {
@@ -155,4 +190,15 @@ footer {
 	width: 100%;
 	padding: 40px;
 	margin-bottom: 0px;
+	margin-top: 40px;
+	height: 200px;
+	top: 1566px;
+	/*position: absolute;*/
+
+
+}
+
+footer .footerlogo img {
+	
+
 }
